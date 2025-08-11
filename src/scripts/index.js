@@ -1,5 +1,7 @@
-import { user } from '/src/scripts/services/user.js'
-import { repositories } from '/src/scripts/services/repositories.js'
+import { getUser } from '/src/scripts/services/user.js'
+import { getRepositories } from '/src/scripts/services/repositories.js'
+import { user } from '/src/scripts/objects/user.js'
+
 
 document.getElementById('btn-search').addEventListener('click', () => {
     const userName = document.getElementById('input-search').value
@@ -17,22 +19,24 @@ document.getElementById('input-search').addEventListener('keyup', (e) => {
 })
 
 function getUserProfile(userName) {
-    user(userName).then(userData => {
-        let userInfo = `<div class="info">
-                        <img src="${userData.avatar_url}" alt="Foto do perfil do usuario" />
-                        <div class="data">
-                            <h1>${userData.name ?? 'Não possui nome cadastrado'}</h1>
-                            <p>${userData.bio ?? 'Não possui Bio cadastrada'}</p>
-                        </div>
-                        </div>`
-        document.querySelector('.profile-data').innerHTML = userInfo
 
-        getUserRepositories(userName)
-    })
+    
+    // getUser(userName).then(userData => {
+    //     let userInfo = `<div class="info">
+    //                     <img src="${userData.avatar_url}" alt="Foto do perfil do usuario" />
+    //                     <div class="data">
+    //                         <h1>${userData.name ?? 'Não possui nome cadastrado'}</h1>
+    //                         <p>${userData.bio ?? 'Não possui Bio cadastrada'}</p>
+    //                     </div>
+    //                     </div>`
+    //     document.querySelector('.profile-data').innerHTML = userInfo
+
+    //     getUserRepositories(userName)
+    // })
 }
 
 function getUserRepositories(userName) {
-    repositories(userName).then(reposData => {
+    getRepositories(userName).then(reposData => {
         let respositoriesItens = ""
         reposData.forEach(repo => {
             respositoriesItens += `<li><a href="${repo.html_url}" target="_blank">${repo.name}</a></li>`
