@@ -22,11 +22,15 @@ const screen = {
 
     if (user.repositories.length > 0) {
       this.userProfile.innerHTML += `<div class="repositories section">
-                                            <h2>Repositóries</h2>
-                                            <ul>${repositoriesItens}</ul>
-                                            </div>`;
+                                        <h2>Repositóries</h2>
+                                        <ul>${repositoriesItens}</ul>
+                                    </div>`;
     }
   },
-};
+
+  renderNotFound(){
+    this.userProfile.innerHTML = "<h3>Usuário não encontrado</h3>"
+  }
+}
 
 export { screen };
