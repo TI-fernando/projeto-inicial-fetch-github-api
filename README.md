@@ -1,31 +1,30 @@
 # <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub Logo" width="30"/> Projeto API do GitHub
 
-Neste projeto foi criado uma aplicação web que utiliza a **GitHub API** para buscar informações públicas de usuários, seus dados, seguidores, repositórios e eventos recentes. Com um design estilizado, moderno e responsivo, esta ferramenta permite visualizar rapidamente o perfil de qualquer usuário do GitHub de forma prática e intuitiva.
+Neste projeto foi criado uma aplicação web que utiliza a **GitHub API** para buscar informações públicas de usuários, seus dados, seguidores, repositórios e eventos recentes. Com um design estilizado, moderno e responsivo, esta ferramenta permite visualizar rapidamente o perfil de qualquer usuário do GitHub de forma prática.
 
-## Conhecimentos Adiquiridos Com Esse Projeto: 📚😊
+## Conhecimentos Adiquiridos Com Esse Projeto: 📚
 
-👉 Aprendizado real com API externa
+- Aprendizado real com API externa
 
-👉 Fazer requisições HTTP com fetch
+- Fazer requisições HTTP com fetch
 
-👉 Lidar com respostas assíncronas (async/await)
+- Lidar com respostas assíncronas (async/await)
 
-👉 Tratar dados em JSON
+- Tratar dados em JSON
 
-👉 Exibir dinamicamente os dados na tela
+- Exibir dinamicamente os dados na tela
 
-👉 Simulação do que se faz no mundo real ao integrar sistemas.
-
+- Simulação do que se faz no mundo real ao integrar sistemas.
 
 ## 📸 Preview
 
 ![Gif do Projeto API do GitHub](src/gif/github.gif)
 
-## 🚀 Funcionalidades
+## ⚙ Funcionalidades
 
-🔎 **Busca de usuários do GitHub pelo nome de usuário 👤**
+## 🔎 Busca De Usuários Do GitHub Pelo Nome De Usuário
 
-- Foto de perfil 
+- Foto de perfil
 - Nome
 - Bio
 - Número de seguidores e seguindo
@@ -33,14 +32,12 @@ Neste projeto foi criado uma aplicação web que utiliza a **GitHub API** para b
 - Quantidade de **Forks**
 - Quantidade de **Estrelas**
 - Quantidade de **Watchers**
-- **Linguagem de programação** principal
 - 📁 Listagem dos 10 principais repositórios públicos.
 - 📝 Exibição dos 10 eventos mais recentes (Push e Create Events).
 
-
 ## 🧪 Tecnologias Utilizadas
 
-- **HTML5**: Estrutura da página 
+- **HTML5**: Estrutura da página
 
 - **CSS3**: Estilização e responsividade
 
@@ -51,6 +48,7 @@ Neste projeto foi criado uma aplicação web que utiliza a **GitHub API** para b
 - **Fetch API**: Conexão com a API
 
 - **Modularização com ES Modules**: Organização do código
+
 <br>
 <div style="display: inline_block">
     <img align="center" alt="icone-HTML" height="60" width="60" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
