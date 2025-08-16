@@ -22,8 +22,7 @@ Neste projeto foi criado uma aplicação web que utiliza a **GitHub API** para b
 
 ## ⚙ Funcionalidades
 
-## 🔎 Busca De Usuários Do GitHub Pelo Nome De Usuário
-
+- Busca De Usuários Do GitHub Pelo Nome De Usuário
 - Foto de perfil
 - Nome
 - Bio
@@ -35,7 +34,7 @@ Neste projeto foi criado uma aplicação web que utiliza a **GitHub API** para b
 - 📁 Listagem dos 10 principais repositórios públicos.
 - 📝 Exibição dos 10 eventos mais recentes (Push e Create Events).
 
-## 🧪 Tecnologias Utilizadas
+## 💻 Tecnologias Utilizadas
 
 - **HTML5**: Estrutura da página
 
